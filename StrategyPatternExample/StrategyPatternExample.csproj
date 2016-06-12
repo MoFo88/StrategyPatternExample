@@ -44,6 +44,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="XmlManipulations\Builders\BaseXmlBuilder.cs" />
+    <Compile Include="XmlManipulations\Strategies\BaseStrategy.cs" />
     <Compile Include="XmlSchema\CustomersOrders.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

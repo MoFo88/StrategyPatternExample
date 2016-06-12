@@ -4,8 +4,8 @@
     {
         Unknown = 0,
         Simple = 1,
-        S = 1,
-        Extended = 2,
-        E = 2
+        S = 2,
+        Extended = 3,
+        E = 4
     }
 }

@@ -2,6 +2,7 @@
 {
     public interface IXmlStrategy
     {
-        void CreateXmlFile();
+        string CreateXml();
+        string GetFileTypeName();
     }
 }
