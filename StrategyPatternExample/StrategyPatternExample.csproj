@@ -44,17 +44,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CustomersOrders.cs" />
+    <Compile Include="XmlSchema\CustomersOrders.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Version.cs" />
+    <Compile Include="XmlManipulations\Builders\ExtendedXmlBuilder.cs" />
+    <Compile Include="XmlManipulations\Builders\SimpleXmlBuilder.cs" />
+    <Compile Include="XmlManipulations\Interfaces\IXmlStrategy.cs" />
+    <Compile Include="XmlManipulations\Strategies\ExtendedXmlStrategy.cs" />
+    <Compile Include="XmlManipulations\Strategies\SimpleXmlStrategy.cs" />
+    <Compile Include="XmlManipulations\XmlCreator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="CustomersOrders.xsd">
+    <None Include="XmlSchema\CustomersOrders.xsd">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
